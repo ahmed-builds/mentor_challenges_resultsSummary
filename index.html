@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="container">
+    <div class="main_container">
+      <div class="result_container">
+        <h2 class="result_title">Your Result</h2>
+        <div class="result_circle">
+          <div class="result_score">76</div>
+          <div class="result_score_total">of 100</div>
+        </div>
+        <div class="result_status">Great</div>
+        <div class="result_description">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div class="summary_container">
+        <h2 class="summary_title">Summary</h2>
+        <div class="result_items">
+          <div id="reaction">
+            <div class="icon_text reaction"><i class="fa fa-bolt"></i> Reaction</div>
+            <div class="marks">
+              <span class="obMarks">80</span
+              ><span class="totalMarks"> / 100</span>
+            </div>
+          </div>
+          <div id="memory">
+            <div class="icon_text memory"><i class="fa fa-brain"></i> Memory</div>
+            <div class="marks">
+              <span class="obMarks">92</span
+              ><span class="totalMarks"> / 100</span>
+            </div>
+          </div>
+          <div id="verbal">
+            <div class="icon_text verbal"><i class="fa fa-commenting"></i> Verbal</div>
+            <div class="marks">
+              <span class="obMarks">61</span
+              ><span class="totalMarks"> / 100</span>
+            </div>
+          </div>
+          <div id="visual">
+            <div class="icon_text visual"><i class="fa fa-eye"></i> Visual</div>
+            <div class="marks">
+              <span class="obMarks">72</span
+              ><span class="totalMarks"> / 100</span>
+            </div>
+          </div>
+        </div>
+        <button class="result_button">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
